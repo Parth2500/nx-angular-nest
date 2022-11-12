@@ -8,14 +8,15 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2020",
     "module": "esnext",
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ng-nest/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@ng-nest/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@ng-nest/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
